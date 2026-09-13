@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio Profesional</title>
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen font-sans selection:bg-blue-500 selection:text-white">
+
+  <!-- BARRA DE NAVEGACIÓN -->
+  <nav class="border-b border-slate-800 bg-slate-950/80 backdrop-blur fixed top-0 w-full z-50">
+    <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+      <span class="font-bold text-lg text-blue-500 tracking-tight">Portafolio.dev</span>
+      <div class="flex gap-6 text-sm font-medium text-slate-400">
+        <a href="#proyectos" class="hover:text-blue-400 transition-colors">Proyectos</a>
+        <a href="#habilidades" class="hover:text-blue-400 transition-colors">Habilidades</a>
+        <a href="#contacto" class="hover:text-blue-400 transition-colors">Contacto</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PRESENTACIÓN / HERO -->
+  <section class="max-w-4xl mx-auto px-6 pt-36 pb-20 text-center">
+    <span class="text-blue-400 text-xs font-semibold tracking-wider uppercase bg-blue-950/60 border border-blue-800/60 px-3 py-1 rounded-full">
+      Disponible para proyectos
+    </span>
+    
+    <h1 class="text-4xl md:text-6xl font-extrabold mt-6 tracking-tight text-white leading-tight">
+      Desarrollo de Software & <span class="text-blue-500">Análisis de Datos</span>
+    </h1>
+    
+    <p class="text-slate-400 text-lg md:text-xl mt-4 max-w-2xl mx-auto leading-relaxed">
+      Creación de aplicaciones, automatización de procesos y desarrollo de soluciones técnicas enfocadas en optimización.
+    </p>
+
+    <div class="mt-8 flex justify-center gap-4">
+      <a href="#proyectos" class="bg-blue-600 hover:bg-blue-500 text-white font-medium px-6 py-3 rounded-lg transition-all shadow-lg shadow-blue-600/20">
+        Ver Proyectos
+      </a>
+      <a href="#contacto" class="bg-slate-900 hover:bg-slate-800 text-slate-200 font-medium px-6 py-3 rounded-lg border border-slate-800 transition-all">
+        Contacto
+      </a>
+    </div>
+  </section>
+
+  <!-- SECCIÓN DE PROYECTOS -->
+  <section id="proyectos" class="max-w-5xl mx-auto px-6 py-16 border-t border-slate-900">
+    <div class="mb-12">
+      <h2 class="text-2xl md:text-3xl font-bold text-white">Proyectos Destacados</h2>
+      <p class="text-slate-400 text-sm mt-1">Una selección de desarrollos y soluciones técnicas de ejemplo.</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      
+      <!-- Proyecto 1 -->
+      <article class="bg-slate-900/50 border border-slate-800 rounded-xl p-6 hover:border-slate-700 transition-all">
+        <div class="flex flex-wrap gap-2 mb-4">
+          <span class="px-2.5 py-0.5 text-xs font-medium bg-blue-950 text-blue-400 rounded-full border border-blue-800/60">Python</span>
+          <span class="px-2.5 py-0.5 text-xs font-medium bg-emerald-950 text-emerald-400 rounded-full border border-emerald-800/60">CatBoost</span>
+          <span class="px-2.5 py-0.5 text-xs font-medium bg-amber-950 text-amber-400 rounded-full border border-amber-800/60">SQL</span>
+        </div>
+        <h3 class="text-xl font-bold text-white mb-2">Modelo Predictivo de Resolución de Incidencias</h3>
+        <p class="text-slate-400 text-sm mb-6 leading-relaxed">
+          Desarrollo de un pipeline de análisis de datos y modelo de regresión para estimar tiempos de solución en fallas operativas.
+        </p>
+        <a href="#" class="inline-flex items-center gap-1 text-sm font-medium text-blue-400 hover:text-blue-300 transition-colors">
+          Ver código en GitHub →
+        </a>
+      </article>
+
+      <!-- Proyecto 2 -->
+      <article class="bg-slate-900/50 border border-slate-800 rounded-xl p-6 hover:border-slate-700 transition-all">
+        <div class="flex flex-wrap gap-2 mb-4">
+          <span class="px-2.5 py-0.5 text-xs font-medium bg-purple-950 text-purple-400 rounded-full border border-purple-800/60">Power Platform</span>
+          <span class="px-2.5 py-0.5 text-xs font-medium bg-cyan-950 text-cyan-400 rounded-full border border-cyan-800/60">Power BI</span>
+          <span class="px-2.5 py-0.5 text-xs font-medium bg-slate-800 text-slate-300 rounded-full border border-slate-700">Automation</span>
+        </div>
+        <h3 class="text-xl font-bold text-white mb-2">Automatización de Procesos Operativos</h3>
+        <p class="text-slate-400 text-sm mb-6 leading-relaxed">
+          Diseño e implementación de flujos automatizados con Power Automate y tableros interactivos para seguimiento de métricas en tiempo real.
+        </p>
+        <a href="#" class="inline-flex items-center gap-1 text-sm font-medium text-blue-400 hover:text-blue-300 transition-colors">
+          Ver reporte / demo →
+        </a>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- SECCIÓN DE CONTACTO -->
+  <section id="contacto" class="max-w-4xl mx-auto px-6 py-20 border-t border-slate-900 text-center">
+    <h2 class="text-2xl md:text-3xl font-bold text-white">¿Hablamos?</h2>
+    <p class="text-slate-400 mt-2 max-w-lg mx-auto">
+      Estoy disponible para proyectos independientes, consultoría o vacantes a tiempo completo.
+    </p>
+    <div class="mt-6">
+      <a href="mailto:tu-correo@ejemplo.com" class="inline-block bg-blue-600 hover:bg-blue-500 text-white font-medium px-8 py-3 rounded-lg transition-all shadow-lg shadow-blue-600/20">
+        Enviar Mensaje
+      </a>
+    </div>
+  </section>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="border-t border-slate-900 py-8 text-center text-slate-500 text-sm">
+    <p>© 2026 - Desarrollado con Vite y Tailwind CSS</p>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
